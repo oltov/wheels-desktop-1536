@@ -1,0 +1,124 @@
+.header {
+  // height: 1080px;
+  color: #ededed;
+  background-color: #0c0c0c;
+  background-image: url("../img/header-bg-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.header__wrapper {
+  padding-top: 107px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  &::before {
+    content: "";
+    background-image: url("../img/mouse-icon.png");
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 67px;
+    top: 930px;
+    left: 744px;
+  }
+}
+
+.header__logo,
+.header__button-menu {
+  margin: 0;
+  color: #ededed;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.125em;
+}
+
+.header__button-menu {
+  padding: 0;
+  padding-right: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 19px;
+    height: 18px;
+    background-image: url("../img/burger-menu.png");
+  }
+}
+
+.header__paragraph-wrapper {
+  padding-top: 385px;
+  padding-bottom: 373px;
+  text-align: right;
+}
+
+.header__paragraph {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.header__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0.125em;
+}
+
+.header__quote {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.125em;
+}
+
+.header__nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link-index {
+  padding: 24px 0;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+  // letter-spacing: 0.125em;
+  color: #1c1c1c;
+  text-transform: uppercase;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 1041px;
+}
+
+.header__item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  // letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.header__item a {
+  color: #3b3b3b;
+  text-decoration: none;
+}

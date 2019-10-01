@@ -1,0 +1,47 @@
+.company {
+  background-color: #f6f6f6;
+  letter-spacing: 0.125em;
+  color: #3b3b3b;
+}
+
+.company__wrapper {
+  padding: 0 70px;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+.company__title {
+  margin: 0;
+  padding-top: 43px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.company__paragraph-one {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    // top: 9px;
+    right: 0;
+    width: 88px;
+    height: 49px;
+    top: 45px;
+    left: 658px;
+    background-image: url("../img/bike.png");
+  }
+}
+
+.company__paragraph-two {
+  margin: 0;
+  padding-bottom: 66px;
+  font-size: 14px;
+}

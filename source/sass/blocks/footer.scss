@@ -1,0 +1,99 @@
+.footer {
+  background-color: #1e1e1e;
+  color: #ededed;
+}
+
+.footer__title {
+  padding-top: 50px;
+  padding-bottom: 135px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.footer__wrapper-list {
+  display: flex;
+  padding: 0 96px;
+  box-sizing: border-box;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  // padding-top: 20px;
+  padding-bottom: 82px;
+  margin-right: 225px;
+}
+
+.footer__list-2 {
+  margin-right: 165px;
+}
+
+.footer__list-header,
+.footer__social-title {
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.footer__social {
+  margin: 0;
+  padding: 0;
+  margin-right: 85px;
+}
+
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 148px;
+  justify-content: space-between;
+}
+
+.footer__social a {
+  display: block;
+  width: 29px;
+  height: 30px;
+}
+
+.footer__item {
+  padding-bottom: 10px;
+  display: block;
+  list-style: none;
+}
+
+.footer__item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.footer__img {
+  margin-top: 5px;
+}
+
+.footer__facebook {
+  background: url("../img/facebook.png") no-repeat;
+}
+
+.footer__linkedin {
+  background: url("../img/linked-in.png") no-repeat 0 bottom;
+}
+
+.footer__instagram {
+  background: url("../img/instagram.png") no-repeat;
+}
+
+.footer__twitter {
+  background: url("../img/twitter.png") no-repeat 0 bottom;
+}

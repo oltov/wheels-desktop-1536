@@ -1,0 +1,55 @@
+.statistic {
+  background-image: url("../img/statistic-background-color.jpg");
+  color: #ffffff;
+}
+
+.statistic__title {
+  margin: 0;
+  padding-top: 90px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.125em;
+}
+
+.statistic__paragraph {
+  padding-top: 10px;
+  display: block;
+  color: #ffffff;
+  letter-spacing: 0.125em;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.statistic__list {
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  display: flex;
+  width: 905px;
+  justify-content: space-between;
+}
+
+.statistic__item {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statistic__number {
+  display: block;
+  letter-spacing: 0.125em;
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.statistic__name {
+  margin-top: 10px;
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
